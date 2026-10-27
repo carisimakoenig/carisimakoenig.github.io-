@@ -1,0 +1,311 @@
+
+
+body#index {background-color: #0F4C5C;}
+body#paintings {background-color: #5C2833;}
+body#resources {background-color:#ca6702}
+body#gallery {background-color: #2C2A29;}
+
+.header
+{font-family: 'Franklin Gothic';
+    font-size: 14px;
+    color:white;
+    padding-right: 24px;
+    text-align: right;}
+
+.header a
+ {flex-direction: row;
+    color: white;
+    text-align: right;
+    padding: 12px 12px;
+    position:relative; top: -78px;
+    text-decoration: none}
+
+.header a:hover 
+{text-decoration: underline;
+    cursor: pointer;
+    color: #264653;}
+
+
+.table
+{border: 1px solid white;
+    margin-left: auto;
+    margin-right:auto;
+    width: 1200px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;}
+
+.table td
+{border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: "Times New Roman";
+    color: white;
+    font-size: 16px;
+    text-align: left;}
+
+.table td a
+{padding: 10px;
+    font-family: "Times New Roman";
+    color: white;
+    font-size: 16px;
+    text-align:left;}
+
+.table td a:hover
+{text-decoration: underline;
+    cursor: pointer;
+    color: #0F4C5C;}
+
+.table th
+{text-align:center;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: "Times New Roman";
+    padding: 10px;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 24px;}
+
+.table li
+{ font-family: "Times New Roman";
+ 
+    color:white;
+    font-size: 16px;}
+
+
+.table ul
+{font-family: "Times New Roman";
+    font-size: 18px;
+    margin-left: -10px;}
+
+h1 
+{font-family: 'Franklin Gothic'; 
+    font-size: 4rem; 
+    color: white; 
+    text-align: center;
+    letter-spacing: 4px;
+    margin-left: 24px;}
+
+h2 
+{font-family: 'Franklin Gothic'; 
+    font-size: 2rem; 
+    color: white; 
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 24px;
+    position: relative; top: -32px;}
+
+h3
+{font-family: 'Franklin Gothic'; 
+    width: 250px;
+    justify-content: center;
+    font-size: 1.5rem; 
+    color: white; 
+    text-align: center;
+    letter-spacing: 4px;
+   margin:auto;}
+
+h5 
+{font-family: 'Franklin Gothic'; 
+    font-size: 1.1rem; 
+    color: white; 
+    letter-spacing: normal;
+    line-height: 1.25;
+    word-spacing: 2px}
+
+h5 a { color: inherit;
+    text-decoration: none;}
+
+h5 a:hover {text-decoration: underline;
+    cursor: pointer;
+    color: #23B6DB;}
+
+h6
+{font-family: 'Franklin Gothic'; 
+    font-size: 14px; 
+    color: white; 
+    letter-spacing: normal;
+    line-height: 4px;
+    margin-left: 24px;
+    word-spacing: 2px}
+
+
+p 
+{font-family: "Times New Roman"; 
+    font-size: 1rem; 
+    color: white; 
+    letter-spacing: normal;
+    line-height: 1.25;
+    word-spacing: 2px;
+    padding-bottom: 6px; }
+
+
+ol 
+{font-family: "Times New Roman";
+    font-size: 1rem;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: 2px}
+
+figcaption 
+{font-size: 12px;
+    font-family: "Franklin Gothic";
+    letter-spacing: normal;
+    word-spacing: 2px;
+    color:white;}
+
+
+
+.paintings
+{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -4px;}
+
+.paintings h2
+{font-family: "Franklin Gothic";
+    font-size: 1.5rem;
+    color:white;
+    letter-spacing: normal;
+    line-height: 1.25;
+    word-spacing: 2px;
+    margin-bottom: -36px;}
+
+.paintings h3
+{font-family: "Franklin Gothic";
+    font-size: 1.1rem;
+    color:white;
+    letter-spacing: normal;
+    line-height: 1.15;
+    word-spacing: 2px;
+    margin-top: -12px;
+    margin-bottom: 14px;
+    width: 500px;}
+
+.paintings h4
+{font-family: "Franklin Gothic";
+    font-size: 1rem;
+    color:#94d2bd;
+    letter-spacing: normal;
+    line-height: 1.15;
+    word-spacing: 2px;
+   margin-top: -10px;}
+
+.paintings a {color: inherit;
+    text-decoration: none;}
+
+.paintings a:hover {text-decoration: underline;
+    cursor: pointer;
+    color:white;}
+
+
+
+.paintings fig
+{width:auto;
+    display:none;
+    margin-top: -64px;}
+
+.paintings figcaption
+{font-size: 12px;
+    font-family: "Franklin Gothic";
+    letter-spacing: normal;
+    word-spacing: 2px;
+    color:white;
+    padding-bottom: 12px;
+    padding-top:4px;}
+
+.paintings p 
+{font-family:"Times New Roman";
+    font-size: 1rem;
+    color:white;
+    letter-spacing: normal;
+    line-height: 1.25;
+    word-spacing: 2px;
+    padding-bottom: 32px;
+    padding-left: 460px;
+    padding-right: 460px;}
+
+
+
+.flex-container 
+{display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 24px;}
+
+.flex-container fig 
+{width: auto;
+    height: auto;}
+
+.text-content 
+{flex: 1;
+    margin-top: 12px;
+     max-width: 800px;}
+
+
+
+.painting-gallery 
+{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.painting-gallery a 
+{display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;}
+
+.painting-gallery img 
+{width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    transition: transform 0.3s ease;}
+
+
+.painting-title {position: relative;
+    bottom: 180px;
+    right: -12px;
+    color: white;
+    font-family: "Franklin Gothic Medium";
+    font-size: 44px;
+    font-weight: normal;
+    text-align: center;
+    width: 90%;
+    opacity: 0;
+    transition: opacity 0.4s ease;}
+
+
+.painting-gallery a:hover img {filter: grayscale(100%) brightness(50%);}
+
+.painting-gallery a:hover 
+
+.painting-title {opacity: 1;}
+
+
+
+
+
+#pagefooter {font-family: "Times New Roman";
+        font-size: 1px;
+        color:white;
+        position:relative;
+        letter-spacing: 1px;
+        bottom: 0;
+        text-align: right;
+        padding-right: 36px;
+        box-sizing: border-box;
+        height: 60px;
+        width: 100%;}
+
+
+
+
